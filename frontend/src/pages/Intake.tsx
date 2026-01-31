@@ -425,7 +425,7 @@ const Intake = () => {
             };
 
             // Call backend API
-            const response = await fetch("http://localhost:5001/api/recommend", {
+            const response = await fetch("http://localhost:5000/api/recommend", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",

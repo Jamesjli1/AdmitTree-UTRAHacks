@@ -1,0 +1,2560 @@
+{
+  "_id": {
+    "$oid": "696c74fcee8b84055d38e650"
+  },
+  "apply_deadline": "January 15",
+  "University of Toronto": {
+    "ec_quality": 5,
+    "co-op": [
+      "yes"
+    ],
+    "programs": {
+      "Mechanical Engineering": {
+        "recommended_average": [
+          88,
+          93
+        ],
+        "required_courses": [
+          "ENG4U / EAE4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U",
+          "One more U or M course"
+        ],
+        "interests": [
+          "mechanics",
+          "thermodynamics",
+          "design",
+          "manufacturing"
+        ]
+      },
+      "Computer Engineering": {
+        "recommended_average": [
+          90,
+          95
+        ],
+        "required_courses": [
+          "ENG4U / EAE4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U",
+          "One more U or M course"
+        ],
+        "interests": [
+          "programming",
+          "electronics",
+          "computer networking"
+        ]
+      },
+      "Electrical Engineering": {
+        "recommended_average": [
+          90,
+          95
+        ],
+        "required_courses": [
+          "ENG4U / EAE4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U",
+          "One more U or M course"
+        ],
+        "interests": [
+          "circuits",
+          "signal processing",
+          "communications"
+        ]
+      },
+      "Civil Engineering": {
+        "recommended_average": [
+          88,
+          93
+        ],
+        "required_courses": [
+          "ENG4U / EAE4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U",
+          "One more U or M course"
+        ],
+        "interests": [
+          "building",
+          "planning",
+          "transportation"
+        ]
+      },
+      "Chemical Engineering": {
+        "recommended_average": [
+          88,
+          93
+        ],
+        "required_courses": [
+          "ENG4U / EAE4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U",
+          "One more U or M course"
+        ],
+        "interests": [
+          "chemistry",
+          "materials",
+          "biology"
+        ]
+      },
+      "Engineering Science": {
+        "recommended_average": [
+          93,
+          98
+        ],
+        "required_courses": [
+          "ENG4U / EAE4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U",
+          "One more U or M course"
+        ],
+        "interests": [
+          "advanced mathematics",
+          "theoretical concepts",
+          "research"
+        ]
+      },
+      "Track One": {
+        "recommended_average": [
+          92,
+          97
+        ],
+        "required_courses": [
+          "ENG4U / EAE4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U",
+          "One more U or M course"
+        ],
+        "interests": [
+          "interdisciplinary studies",
+          "flexible curriculum"
+        ]
+      },
+      "Undeclrared": {
+        "recommended_average": [
+          90,
+          95
+        ],
+        "required_courses": [
+          "ENG4U / EAE4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U",
+          "One more U or M course"
+        ],
+        "interests": [
+          "varied engineering fields",
+          "exploratory studies"
+        ]
+      },
+      "Industrial Engineering": {
+        "recommended_average": [
+          88,
+          93
+        ],
+        "required_courses": [
+          "ENG4U / EAE4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U",
+          "One more U or M course"
+        ],
+        "interests": [
+          "systems optimization",
+          "operations research",
+          "human factors"
+        ]
+      },
+      "Materials Engineering": {
+        "recommended_average": [
+          88,
+          93
+        ],
+        "required_courses": [
+          "ENG4U / EAE4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U",
+          "One more U or M course"
+        ],
+        "interests": [
+          "nanotechnology",
+          "metallurgy",
+          "polymers"
+        ]
+      },
+      "Mineral Engineering": {
+        "recommended_average": [
+          88,
+          93
+        ],
+        "required_courses": [
+          "ENG4U / EAE4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U",
+          "One more U or M course"
+        ],
+        "interests": [
+          "mining processes",
+          "geology",
+          "environmental impact"
+        ]
+      }
+    }
+  },
+  "University of Waterloo": {
+    "ec_quality": 5,
+    "co-op": [
+      "yes"
+    ],
+    "programs": {
+      "Architectural Engineering": {
+        "recommended_average": [
+          85,
+          90
+        ],
+        "required_courses": [
+          "ENG4U / EAE4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U",
+          "One more U or M course"
+        ],
+        "interests": [
+          "building design",
+          "structural analysis",
+          "sustainability"
+        ]
+      },
+      "Biomedical Engineering": {
+        "recommended_average": [
+          88,
+          93
+        ],
+        "required_courses": [
+          "ENG4U / EAE4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U",
+          "One more U or M course"
+        ],
+        "interests": [
+          "medical devices",
+          "biomechanics",
+          "tissue engineering"
+        ]
+      },
+      "Chemical Engineering": {
+        "recommended_average": [
+          85,
+          89
+        ],
+        "required_courses": [
+          "ENG4U / EAE4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U",
+          "One more U or M course"
+        ],
+        "interests": [
+          "process engineering",
+          "thermodynamics",
+          "reaction engineering"
+        ]
+      },
+      "Civil Engineering": {
+        "recommended_average": [
+          84,
+          88
+        ],
+        "required_courses": [
+          "ENG4U / EAE4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U",
+          "One more U or M course"
+        ],
+        "interests": [
+          "infrastructure",
+          "transportation",
+          "environmental engineering"
+        ]
+      },
+      "Computer Engineering": {
+        "recommended_average": [
+          90,
+          95
+        ],
+        "required_courses": [
+          "ENG4U / EAE4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U",
+          "One more U or M course"
+        ],
+        "interests": [
+          "software development",
+          "hardware design",
+          "networking"
+        ]
+      },
+      "Electrical Engineering": {
+        "recommended_average": [
+          89,
+          94
+        ],
+        "required_courses": [
+          "ENG4U / EAE4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U",
+          "One more U or M course"
+        ],
+        "interests": [
+          "circuits",
+          "signal processing",
+          "power systems"
+        ]
+      },
+      "Environmental Engineering": {
+        "recommended_average": [
+          85,
+          90
+        ],
+        "required_courses": [
+          "ENG4U / EAE4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U",
+          "One more U or M course"
+        ],
+        "interests": [
+          "water treatment",
+          "waste management",
+          "sustainability"
+        ]
+      },
+      "Geological Engineering": {
+        "recommended_average": [
+          84,
+          89
+        ],
+        "required_courses": [
+          "ENG4U / EAE4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U",
+          "One more U or M course"
+        ],
+        "interests": [
+          "earth sciences",
+          "mineral exploration",
+          "environmental geology"
+        ]
+      },
+      "Mechanical Engineering": {
+        "recommended_average": [
+          88,
+          93
+        ],
+        "required_courses": [
+          "ENG4U / EAE4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U",
+          "One more U or M course"
+        ],
+        "interests": [
+          "dynamics",
+          "thermodynamics",
+          "manufacturing"
+        ]
+      },
+      "Mechatronics Engineering": {
+        "recommended_average": [
+          90,
+          95
+        ],
+        "required_courses": [
+          "ENG4U / EAE4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U",
+          "One more U or M course"
+        ],
+        "interests": [
+          "robotics",
+          "control systems",
+          "automation"
+        ]
+      },
+      "Nanotechnology Engineering": {
+        "recommended_average": [
+          89,
+          94
+        ],
+        "required_courses": [
+          "ENG4U / EAE4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U",
+          "One more U or M course"
+        ],
+        "interests": [
+          "nanomaterials",
+          "nanoelectronics",
+          "nanomedicine"
+        ]
+      },
+      "Software Engineering": {
+        "recommended_average": [
+          91,
+          96
+        ],
+        "required_courses": [
+          "ENG4U / EAE4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U",
+          "One more U or M course"
+        ],
+        "interests": [
+          "software design",
+          "algorithms",
+          "systems programming"
+        ]
+      },
+      "Systems Design Engineering": {
+        "recommended_average": [
+          90,
+          95
+        ],
+        "required_courses": [
+          "ENG4U / EAE4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U",
+          "One more U or M course"
+        ],
+        "interests": [
+          "complex systems",
+          "integration",
+          "optimization"
+        ]
+      }
+    }
+  },
+  "McMaster University": {
+    "ec_quality": 4,
+    "co-op": [
+      "yes",
+      "no"
+    ],
+    "programs": {
+      "Integrated Biomedical Engineering & Health Sciences (iBioMed)": {
+        "recommended_average": [
+          90,
+          95
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MCV4U",
+          "SBI4U",
+          "SCH4U",
+          "SPH4U",
+          "One additional 4U/M course"
+        ],
+        "interests": [
+          "health innovation",
+          "medical devices",
+          "interdisciplinary design"
+        ]
+      },
+      "Chemical Engineering ": {
+        "recommended_average": [
+          87,
+          90
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U"
+        ],
+        "interests": [
+          "process engineering",
+          "bio-materials",
+          "sustainable energy"
+        ]
+      },
+      "Civil Engineering ": {
+        "recommended_average": [
+          87,
+          90
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U"
+        ],
+        "interests": [
+          "infrastructure",
+          "smart cities",
+          "structural design"
+        ]
+      },
+      "Computer Engineering ": {
+        "recommended_average": [
+          87,
+          90
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U"
+        ],
+        "interests": [
+          "embedded systems",
+          "digital logic",
+          "hardware design"
+        ]
+      },
+      "Electrical Engineering": {
+        "recommended_average": [
+          87,
+          90
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U"
+        ],
+        "interests": [
+          "power systems",
+          "biomedical electronics",
+          "electromagnetics"
+        ]
+      },
+      "Engineering Physics": {
+        "recommended_average": [
+          87,
+          90
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U"
+        ],
+        "interests": [
+          "nanotechnology",
+          "photonics",
+          "nuclear engineering"
+        ]
+      },
+      "Materials Engineering": {
+        "recommended_average": [
+          87,
+          90
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U"
+        ],
+        "interests": [
+          "advanced manufacturing",
+          "biomaterials",
+          "metallurgy"
+        ]
+      },
+      "Mechanical Engineering": {
+        "recommended_average": [
+          87,
+          90
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U"
+        ],
+        "interests": [
+          "biomechanics",
+          "thermo-fluids",
+          "manufacturing"
+        ]
+      },
+      "Mechatronics Engineering": {
+        "recommended_average": [
+          87,
+          90
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U"
+        ],
+        "interests": [
+          "robotics",
+          "automation",
+          "control systems"
+        ]
+      },
+      "Software Engineering": {
+        "recommended_average": [
+          87,
+          90
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U"
+        ],
+        "interests": [
+          "software architecture",
+          "game design",
+          "cybersecurity"
+        ]
+      },
+      "Computer Science (B.A.Sc.)": {
+        "recommended_average": [
+          92,
+          96
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MCV4U",
+          "Two of: SBI4U, SCH4U, SPH4U, SES4U, ICS4U or TEJ4M"
+        ],
+        "interests": [
+          "algorithms",
+          "artificial intelligence",
+          "database systems"
+        ]
+      }
+    }
+  },
+  "Western University": {
+    "ec_quality": 3,
+    "co-op": [
+      "yes"
+    ],
+    "programs": {
+      "Chemical Engineering": {
+        "recommended_average": [
+          88,
+          93
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MCV4U",
+          "MHF4U",
+          "SPH4U",
+          "SCH4U",
+          "One additional 4U/M course"
+        ],
+        "interests": [
+          "sustainable energy",
+          "biochemical processes",
+          "environmental protection"
+        ]
+      },
+      "Civil Engineering": {
+        "recommended_average": [
+          88,
+          93
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MCV4U",
+          "MHF4U",
+          "SPH4U",
+          "SCH4U",
+          "One additional 4U/M course"
+        ],
+        "interests": [
+          "structural design",
+          "smart cities",
+          "disaster mitigation"
+        ]
+      },
+      "Computer Engineering": {
+        "recommended_average": [
+          88,
+          93
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MCV4U",
+          "MHF4U",
+          "SPH4U",
+          "SCH4U",
+          "One additional 4U/M course"
+        ],
+        "interests": [
+          "software-hardware integration",
+          "cybersecurity",
+          "internet of things"
+        ]
+      },
+      "Electrical Engineering": {
+        "recommended_average": [
+          88,
+          93
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MCV4U",
+          "MHF4U",
+          "SPH4U",
+          "SCH4U",
+          "One additional 4U/M course"
+        ],
+        "interests": [
+          "power systems",
+          "robotics control",
+          "wireless communications"
+        ]
+      },
+      "Integrated Engineering": {
+        "recommended_average": [
+          88,
+          93
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MCV4U",
+          "MHF4U",
+          "SPH4U",
+          "SCH4U",
+          "One additional 4U/M course"
+        ],
+        "interests": [
+          "project management",
+          "entrepreneurship",
+          "interdisciplinary design"
+        ]
+      },
+      "Mechanical Engineering": {
+        "recommended_average": [
+          88,
+          93
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MCV4U",
+          "MHF4U",
+          "SPH4U",
+          "SCH4U",
+          "One additional 4U/M course"
+        ],
+        "interests": [
+          "automotive design",
+          "advanced manufacturing",
+          "thermodynamics"
+        ]
+      },
+      "Mechatronic Systems Engineering": {
+        "recommended_average": [
+          88,
+          93
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MCV4U",
+          "MHF4U",
+          "SPH4U",
+          "SCH4U",
+          "One additional 4U/M course"
+        ],
+        "interests": [
+          "robotics",
+          "AI in manufacturing",
+          "medical devices"
+        ]
+      },
+      "Software Engineering": {
+        "recommended_average": [
+          88,
+          93
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MCV4U",
+          "MHF4U",
+          "SPH4U",
+          "SCH4U",
+          "One additional 4U/M course"
+        ],
+        "interests": [
+          "software architecture",
+          "cloud computing",
+          "game design"
+        ]
+      },
+      "Biomedical Engineering (Concurrent Degree)": {
+        "recommended_average": [
+          88,
+          93
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MCV4U",
+          "MHF4U",
+          "SPH4U",
+          "SCH4U",
+          "One additional 4U/M course"
+        ],
+        "interests": [
+          "biomechanics",
+          "medical imaging",
+          "implant design"
+        ]
+      },
+      "Artificial Intelligence Systems Engineering (Concurrent Degree)": {
+        "recommended_average": [
+          88,
+          93
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MCV4U",
+          "MHF4U",
+          "SPH4U",
+          "SCH4U",
+          "One additional 4U/M course"
+        ],
+        "interests": [
+          "machine learning",
+          "autonomous vehicles",
+          "data ethics"
+        ]
+      }
+    }
+  },
+  "University of Ottawa": {
+    "ec_quality": 3,
+    "co-op": [
+      "yes",
+      "no"
+    ],
+    "programs": {
+      "Biomedical Mechanical Engineering (BASc)": {
+        "recommended_average": [
+          80,
+          85
+        ],
+        "required_courses": [
+          "ENG4U / EAE4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U",
+          "SBI4U"
+        ],
+        "interests": [
+          "medical devices",
+          "biomechanics",
+          "prosthetics design"
+        ]
+      },
+      "Biomedical Mechanical Engineering (BASc) and Computing Technology (BSc)": {
+        "recommended_average": [
+          80,
+          85
+        ],
+        "required_courses": [
+          "ENG4U / EAE4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U",
+          "SBI4U"
+        ],
+        "interests": [
+          "health technology",
+          "software development",
+          "robotics"
+        ]
+      },
+      "Chemical Engineering": {
+        "recommended_average": [
+          80,
+          85
+        ],
+        "required_courses": [
+          "ENG4U / EAE4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U"
+        ],
+        "interests": [
+          "process engineering",
+          "sustainable energy",
+          "materials science"
+        ]
+      },
+      "Chemical Engineering (BASc) and Computing Technology (BSc)": {
+        "recommended_average": [
+          80,
+          85
+        ],
+        "required_courses": [
+          "ENG4U / EAE4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U"
+        ],
+        "interests": [
+          "process simulation",
+          "environmental technology",
+          "data analysis"
+        ]
+      },
+      "Civil Engineering": {
+        "recommended_average": [
+          80,
+          85
+        ],
+        "required_courses": [
+          "ENG4U / EAE4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U"
+        ],
+        "interests": [
+          "infrastructure",
+          "structural design",
+          "environmental sustainability"
+        ]
+      },
+      "Civil Engineering (BASc) and Computing Technology (BSc)": {
+        "recommended_average": [
+          80,
+          85
+        ],
+        "required_courses": [
+          "ENG4U / EAE4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U"
+        ],
+        "interests": [
+          "smart cities",
+          "construction management",
+          "geomatics"
+        ]
+      },
+      "Computer Engineering": {
+        "recommended_average": [
+          80,
+          85
+        ],
+        "required_courses": [
+          "ENG4U / EAE4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U"
+        ],
+        "interests": [
+          "hardware design",
+          "embedded systems",
+          "telecommunications"
+        ]
+      },
+      "Electrical Engineering": {
+        "recommended_average": [
+          80,
+          85
+        ],
+        "required_courses": [
+          "ENG4U / EAE4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U"
+        ],
+        "interests": [
+          "power systems",
+          "electronics",
+          "signal processing"
+        ]
+      },
+      "Electrical Engineering (BASc) and Computing Technology (BSc)": {
+        "recommended_average": [
+          80,
+          85
+        ],
+        "required_courses": [
+          "ENG4U / EAE4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U"
+        ],
+        "interests": [
+          "smart grids",
+          "digital systems",
+          "automation"
+        ]
+      },
+      "Mechanical Engineering": {
+        "recommended_average": [
+          80,
+          85
+        ],
+        "required_courses": [
+          "ENG4U / EAE4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U"
+        ],
+        "interests": [
+          "automotive engineering",
+          "aerospace",
+          "manufacturing"
+        ]
+      },
+      "Mechanical Engineering (BASc) and Computing Technology (BSc)": {
+        "recommended_average": [
+          80,
+          85
+        ],
+        "required_courses": [
+          "ENG4U / EAE4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U"
+        ],
+        "interests": [
+          "mechatronics",
+          "robotics",
+          "CAD/CAM systems"
+        ]
+      },
+      "Software Engineering": {
+        "recommended_average": [
+          80,
+          85
+        ],
+        "required_courses": [
+          "ENG4U / EAE4U",
+          "MHF4U",
+          "MCV4U",
+          "One of SPH4U, SCH4U, SBI4U or ICS4U"
+        ],
+        "interests": [
+          "software architecture",
+          "app development",
+          "system reliability"
+        ]
+      }
+    }
+  },
+  "Queens University": {
+    "ec_quality": 3,
+    "co-op": [
+      "yes",
+      "no"
+    ],
+    "programs": {
+      "Chemical Engineering": {
+        "recommended_average": [
+          87,
+          93
+        ],
+        "required_courses": [
+          "ENG4U (min 70%)",
+          "MCV4U",
+          "MHF4U",
+          "SPH4U",
+          "SCH4U"
+        ],
+        "interests": [
+          "biochemical processes",
+          "sustainable energy",
+          "pharmaceuticals"
+        ]
+      },
+      "Civil Engineering": {
+        "recommended_average": [
+          87,
+          93
+        ],
+        "required_courses": [
+          "ENG4U (min 70%)",
+          "MCV4U",
+          "MHF4U",
+          "SPH4U",
+          "SCH4U"
+        ],
+        "interests": [
+          "infrastructure",
+          "environmental sustainability",
+          "structural design"
+        ]
+      },
+      "Computer Engineering": {
+        "recommended_average": [
+          87,
+          93
+        ],
+        "required_courses": [
+          "ENG4U (min 70%)",
+          "MCV4U",
+          "MHF4U",
+          "SPH4U",
+          "SCH4U"
+        ],
+        "interests": [
+          "software-hardware integration",
+          "cybersecurity",
+          "computer architecture"
+        ]
+      },
+      "Computer Engineering (Innovation Stream - Direct Entry)": {
+        "recommended_average": [
+          90,
+          95
+        ],
+        "required_courses": [
+          "ENG4U (min 70%)",
+          "MCV4U",
+          "MHF4U",
+          "SPH4U",
+          "SCH4U"
+        ],
+        "interests": [
+          "entrepreneurship",
+          "business management",
+          "tech innovation"
+        ]
+      },
+      "Electrical Engineering": {
+        "recommended_average": [
+          87,
+          93
+        ],
+        "required_courses": [
+          "ENG4U (min 70%)",
+          "MCV4U",
+          "MHF4U",
+          "SPH4U",
+          "SCH4U"
+        ],
+        "interests": [
+          "power systems",
+          "wireless communications",
+          "renewable energy"
+        ]
+      },
+      "Electrical Engineering (Innovation Stream - Direct Entry)": {
+        "recommended_average": [
+          90,
+          95
+        ],
+        "required_courses": [
+          "ENG4U (min 70%)",
+          "MCV4U",
+          "MHF4U",
+          "SPH4U",
+          "SCH4U"
+        ],
+        "interests": [
+          "entrepreneurship",
+          "smart grids",
+          "tech startups"
+        ]
+      },
+      "Engineering Chemistry": {
+        "recommended_average": [
+          87,
+          93
+        ],
+        "required_courses": [
+          "ENG4U (min 70%)",
+          "MCV4U",
+          "MHF4U",
+          "SPH4U",
+          "SCH4U"
+        ],
+        "interests": [
+          "batteries and fuel cells",
+          "polymer science",
+          "green chemistry"
+        ]
+      },
+      "Engineering Physics": {
+        "recommended_average": [
+          87,
+          93
+        ],
+        "required_courses": [
+          "ENG4U (min 70%)",
+          "MCV4U",
+          "MHF4U",
+          "SPH4U",
+          "SCH4U"
+        ],
+        "interests": [
+          "quantum computing",
+          "nanotechnology",
+          "nuclear engineering"
+        ]
+      },
+      "Geological Engineering": {
+        "recommended_average": [
+          87,
+          93
+        ],
+        "required_courses": [
+          "ENG4U (min 70%)",
+          "MCV4U",
+          "MHF4U",
+          "SPH4U",
+          "SCH4U"
+        ],
+        "interests": [
+          "geohazards",
+          "groundwater protection",
+          "geophysical exploration"
+        ]
+      },
+      "Mathematics and Engineering": {
+        "recommended_average": [
+          87,
+          93
+        ],
+        "required_courses": [
+          "ENG4U (min 70%)",
+          "MCV4U",
+          "MHF4U",
+          "SPH4U",
+          "SCH4U"
+        ],
+        "interests": [
+          "control theory",
+          "robotics math",
+          "cryptography"
+        ]
+      },
+      "Mechanical Engineering": {
+        "recommended_average": [
+          87,
+          93
+        ],
+        "required_courses": [
+          "ENG4U (min 70%)",
+          "MCV4U",
+          "MHF4U",
+          "SPH4U",
+          "SCH4U"
+        ],
+        "interests": [
+          "aerospace",
+          "biomechanics",
+          "mechatronics"
+        ]
+      },
+      "Mechatronics and Robotics Engineering (Direct Entry)": {
+        "recommended_average": [
+          90,
+          95
+        ],
+        "required_courses": [
+          "ENG4U (min 70%)",
+          "MCV4U",
+          "MHF4U",
+          "SPH4U",
+          "SCH4U"
+        ],
+        "interests": [
+          "autonomous systems",
+          "artificial intelligence",
+          "robotics design"
+        ]
+      },
+      "Mining Engineering": {
+        "recommended_average": [
+          87,
+          93
+        ],
+        "required_courses": [
+          "ENG4U (min 70%)",
+          "MCV4U",
+          "MHF4U",
+          "SPH4U",
+          "SCH4U"
+        ],
+        "interests": [
+          "mineral extraction",
+          "mine automation",
+          "sustainability in mining"
+        ]
+      }
+    }
+  },
+  "Carleton University": {
+    "ec_quality": 2,
+    "co-op": [
+      "yes",
+      "no"
+    ],
+    "programs": {
+      "Aerospace Engineering": {
+        "recommended_average": [
+          84,
+          88
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "SCH4U",
+          "SPH4U",
+          "MCV4U (Strongly Recommended)"
+        ],
+        "interests": [
+          "aerodynamics",
+          "space systems",
+          "propulsion"
+        ]
+      },
+      "Architectural Conservation and Sustainability Engineering": {
+        "recommended_average": [
+          78,
+          84
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "SCH4U",
+          "SPH4U",
+          "MCV4U (Strongly Recommended)"
+        ],
+        "interests": [
+          "green building",
+          "heritage conservation",
+          "structural analysis"
+        ]
+      },
+      "Biomedical and Electrical Engineering": {
+        "recommended_average": [
+          78,
+          84
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "SCH4U",
+          "SPH4U",
+          "MCV4U (Strongly Recommended)"
+        ],
+        "interests": [
+          "medical imaging",
+          "bioinformatics",
+          "biosensors"
+        ]
+      },
+      "Biomedical and Mechanical Engineering": {
+        "recommended_average": [
+          78,
+          84
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "SCH4U",
+          "SPH4U",
+          "MCV4U (Strongly Recommended)"
+        ],
+        "interests": [
+          "prosthetics",
+          "biomechanics",
+          "medical devices"
+        ]
+      },
+      "Civil Engineering": {
+        "recommended_average": [
+          78,
+          84
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "SCH4U",
+          "SPH4U",
+          "MCV4U (Strongly Recommended)"
+        ],
+        "interests": [
+          "infrastructure",
+          "transportation",
+          "environmental impact"
+        ]
+      },
+      "Communications Engineering": {
+        "recommended_average": [
+          78,
+          84
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "SCH4U",
+          "SPH4U",
+          "MCV4U (Strongly Recommended)"
+        ],
+        "interests": [
+          "wireless networks",
+          "5G/6G technology",
+          "cloud computing"
+        ]
+      },
+      "Computer Systems Engineering": {
+        "recommended_average": [
+          80,
+          86
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "SCH4U",
+          "SPH4U",
+          "MCV4U (Strongly Recommended)"
+        ],
+        "interests": [
+          "robotics",
+          "embedded systems",
+          "real-time applications"
+        ]
+      },
+      "Electrical Engineering": {
+        "recommended_average": [
+          78,
+          84
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "SCH4U",
+          "SPH4U",
+          "MCV4U (Strongly Recommended)"
+        ],
+        "interests": [
+          "integrated circuits",
+          "power generation",
+          "nanotechnology"
+        ]
+      },
+      "Engineering Physics": {
+        "recommended_average": [
+          78,
+          84
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "SCH4U",
+          "SPH4U",
+          "MCV4U (Strongly Recommended)"
+        ],
+        "interests": [
+          "quantum technology",
+          "optical networks",
+          "semiconductors"
+        ]
+      },
+      "Environmental Engineering": {
+        "recommended_average": [
+          78,
+          84
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "SCH4U",
+          "SPH4U",
+          "MCV4U (Strongly Recommended)"
+        ],
+        "interests": [
+          "water treatment",
+          "pollution control",
+          "climate change mitigation"
+        ]
+      },
+      "Mechanical Engineering": {
+        "recommended_average": [
+          80,
+          86
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "SCH4U",
+          "SPH4U",
+          "MCV4U (Strongly Recommended)"
+        ],
+        "interests": [
+          "automotive design",
+          "robotics",
+          "manufacturing"
+        ]
+      },
+      "Software Engineering": {
+        "recommended_average": [
+          82,
+          88
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "SCH4U",
+          "SPH4U",
+          "MCV4U (Strongly Recommended)"
+        ],
+        "interests": [
+          "app development",
+          "artificial intelligence",
+          "software security"
+        ]
+      },
+      "Sustainable and Renewable Energy Engineering": {
+        "recommended_average": [
+          78,
+          84
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "SCH4U",
+          "SPH4U",
+          "MCV4U (Strongly Recommended)"
+        ],
+        "interests": [
+          "smart grids",
+          "electric vehicles",
+          "energy policy"
+        ]
+      },
+      "Computer Science (B.C.S.)": {
+        "recommended_average": [
+          85,
+          90
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "MCV4U (Calculus)"
+        ],
+        "interests": [
+          "game development",
+          "network security",
+          "machine learning"
+        ]
+      }
+    }
+  },
+  "University of Windsor": {
+    "ec_quality": 2,
+    "application_deadline": "Not specified",
+    "co-op": [
+      "yes"
+    ],
+    "programs": {
+      "Civil Engineering": {
+        "recommended_average": [
+          86,
+          89
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "SCH4U",
+          "SPH4U"
+        ],
+        "strongly_recommended": [
+          "MCV4U"
+        ],
+        "minimum_average": "74%"
+      },
+      "Electrical Engineering": {
+        "recommended_average": [
+          87,
+          90
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "SCH4U",
+          "SPH4U"
+        ],
+        "strongly_recommended": [
+          "MCV4U"
+        ],
+        "minimum_average": "74%"
+      },
+      "Environmental Engineering": {
+        "recommended_average": [
+          84,
+          87
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "SCH4U",
+          "SPH4U"
+        ],
+        "strongly_recommended": [
+          "MCV4U"
+        ],
+        "minimum_average": "74%"
+      },
+      "Industrial Engineering": {
+        "recommended_average": [
+          84,
+          87
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "SCH4U",
+          "SPH4U"
+        ],
+        "strongly_recommended": [
+          "MCV4U"
+        ],
+        "minimum_average": "74%"
+      },
+      "Mechanical Engineering": {
+        "recommended_average": [
+          84,
+          87
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "SCH4U",
+          "SPH4U"
+        ],
+        "strongly_recommended": [
+          "MCV4U"
+        ],
+        "minimum_average": "74%"
+      },
+      "Mechatronic Systems Engineering": {
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "SCH4U",
+          "SPH4U"
+        ],
+        "strongly_recommended": [
+          "MCV4U"
+        ],
+        "minimum_average": "74%",
+        "recommended_average": [
+          84,
+          87
+        ]
+      }
+    }
+  },
+  "Ontario Tech University": {
+    "ec_quality": 2,
+    "application_deadline": "Not specified",
+    "co-op": [
+      "yes",
+      "no"
+    ],
+    "programs": {
+      "Automotive Engineering": {
+        "recommended_average": [
+          70
+        ],
+        "required_courses": [
+          "ENG4U (min 60%)",
+          "MHF4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U"
+        ],
+        "notes": "Minimum 70% average in math and science prerequisite courses"
+      },
+      "Electrical Engineering": {
+        "recommended_average": [
+          70
+        ],
+        "required_courses": [
+          "ENG4U (min 60%)",
+          "MHF4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U"
+        ],
+        "notes": "Minimum 70% average in math and science prerequisite courses"
+      },
+      "Industrial Engineering": {
+        "recommended_average": [
+          70
+        ],
+        "required_courses": [
+          "ENG4U (min 60%)",
+          "MHF4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U"
+        ],
+        "notes": "Minimum 70% average in math and science prerequisite courses"
+      },
+      "Manufacturing Engineering": {
+        "recommended_average": [
+          70
+        ],
+        "required_courses": [
+          "ENG4U (min 60%)",
+          "MHF4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U"
+        ],
+        "notes": "Minimum 70% average in math and science prerequisite courses"
+      },
+      "Mechanical Engineering": {
+        "recommended_average": [
+          70
+        ],
+        "required_courses": [
+          "ENG4U (min 60%)",
+          "MHF4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U"
+        ],
+        "notes": "Minimum 70% average in math and science prerequisite courses"
+      },
+      "Mechatronics Engineering": {
+        "recommended_average": [
+          70
+        ],
+        "required_courses": [
+          "ENG4U (min 60%)",
+          "MHF4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U"
+        ],
+        "notes": "Minimum 70% average in math and science prerequisite courses"
+      },
+      "Nuclear Engineering": {
+        "recommended_average": [
+          70
+        ],
+        "required_courses": [
+          "ENG4U (min 60%)",
+          "MHF4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U"
+        ],
+        "notes": "Minimum 70% average in math and science prerequisite courses"
+      },
+      "Software Engineering": {
+        "recommended_average": [
+          70
+        ],
+        "required_courses": [
+          "ENG4U (min 60%)",
+          "MHF4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U"
+        ],
+        "notes": "Minimum 70% average in math and science prerequisite courses"
+      },
+      "Energy Engineering": {
+        "recommended_average": [
+          70
+        ],
+        "required_courses": [
+          "ENG4U (min 60%)",
+          "MHF4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U"
+        ],
+        "notes": "Minimum 70% average in math and science prerequisite courses"
+      },
+      "Pre-Engineering": {
+        "co-op": [
+          "no"
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U"
+        ],
+        "minimum_grade": "60% in prerequisites",
+        "recommended_average": [
+          83
+        ]
+      }
+    }
+  },
+  "Royal Military College of Canada": {
+    "ec_quality": 2,
+    "application_deadline": "Not specified",
+    "co-op": [
+      "no"
+    ],
+    "programs": {
+      "Aeronautical Engineering": {
+        "recommended_average": [
+          85,
+          90
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U",
+          "One more 4U or 4M course"
+        ],
+        "notes": "Admission requires meeting CAF medical and aptitude standards. 75% is the minimum to apply."
+      },
+      "Chemical Engineering": {
+        "recommended_average": [
+          85,
+          90
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U",
+          "One more 4U or 4M course"
+        ],
+        "notes": "Admission requires meeting CAF medical and aptitude standards. 75% is the minimum to apply."
+      },
+      "Civil Engineering": {
+        "recommended_average": [
+          85,
+          90
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U",
+          "One more 4U or 4M course"
+        ],
+        "notes": "Admission requires meeting CAF medical and aptitude standards. 75% is the minimum to apply."
+      },
+      "Computer Engineering": {
+        "recommended_average": [
+          85,
+          90
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U",
+          "One more 4U or 4M course"
+        ],
+        "notes": "Admission requires meeting CAF medical and aptitude standards. 75% is the minimum to apply."
+      },
+      "Electrical Engineering": {
+        "recommended_average": [
+          85,
+          90
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U",
+          "One more 4U or 4M course"
+        ],
+        "notes": "Enrollment for this program may be subject to availability/pauses based on CAF needs."
+      },
+      "Mechanical Engineering": {
+        "recommended_average": [
+          85,
+          90
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U",
+          "One more 4U or 4M course"
+        ],
+        "notes": "Admission requires meeting CAF medical and aptitude standards. 75% is the minimum to apply."
+      }
+    }
+  },
+  "Lakehead University": {
+    "ec_quality": 1,
+    "application_deadline": "Not specified",
+    "co-op": [
+      "yes"
+    ],
+    "programs": {
+      "Chemical Engineering": {
+        "recommended_average": [
+          70
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U (min 60%)",
+          "SCH4U",
+          "SPH4U"
+        ],
+        "strongly_recommended": [
+          "MCV4U"
+        ],
+        "notes": "Calculus & Vectors (MCV4U) with 60% grants exemption from MATH 1071"
+      },
+      "Civil Engineering": {
+        "recommended_average": [
+          70
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U (min 60%)",
+          "SCH4U",
+          "SPH4U"
+        ],
+        "strongly_recommended": [
+          "MCV4U"
+        ],
+        "notes": "Calculus & Vectors (MCV4U) with 60% grants exemption from MATH 1071"
+      },
+      "Electrical Engineering": {
+        "recommended_average": [
+          70
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U (min 60%)",
+          "SCH4U",
+          "SPH4U"
+        ],
+        "strongly_recommended": [
+          "MCV4U"
+        ],
+        "notes": "Calculus & Vectors (MCV4U) with 60% grants exemption from MATH 1071"
+      },
+      "Mechanical Engineering": {
+        "recommended_average": [
+          70
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U (min 60%)",
+          "SCH4U",
+          "SPH4U"
+        ],
+        "strongly_recommended": [
+          "MCV4U"
+        ],
+        "notes": "Calculus & Vectors (MCV4U) with 60% grants exemption from MATH 1071"
+      },
+      "Mechatronics Engineering": {
+        "recommended_average": [
+          70
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U (min 60%)",
+          "SCH4U",
+          "SPH4U"
+        ],
+        "strongly_recommended": [
+          "MCV4U"
+        ],
+        "notes": "Calculus & Vectors (MCV4U) with 60% grants exemption from MATH 1071"
+      },
+      "Software Engineering": {
+        "recommended_average": [
+          70
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U (min 60%)",
+          "SCH4U",
+          "SPH4U"
+        ],
+        "strongly_recommended": [
+          "MCV4U"
+        ],
+        "notes": "Calculus & Vectors (MCV4U) with 60% grants exemption from MATH 1071"
+      }
+    }
+  },
+  "Wilfrid Laurier": {
+    "ec_quality": 2,
+    "application_deadline": "Not specified",
+    "co-op": [
+      "yes"
+    ],
+    "programs": {
+      "Software Engineering": {
+        "recommended_average": [
+          87
+        ],
+        "required_courses": [
+          "ENG4U (60%)",
+          "MHF4U (70%)",
+          "MCV4U (70%)",
+          "Two of Biology, Chemistry, or Physics (60%)"
+        ]
+      }
+    }
+  },
+  "Brock University": {
+    "ec_quality": 1,
+    "application_deadline": "Not specified",
+    "co-op": [
+      "yes"
+    ],
+    "programs": {
+      "Integrated Engineering": {
+        "recommended_average": [
+          70
+        ],
+        "required_courses": [
+          "ENG4U (min 70%)",
+          "MHF4U (min 70%)",
+          "MCV4U (min 70%)",
+          "SCH4U (min 70%)",
+          "SPH4U (min 70%)"
+        ]
+      }
+    }
+  },
+  "Laurentian University": {
+    "ec_quality": 1,
+    "application_deadline": "Not specified",
+    "co-op": [
+      "yes"
+    ],
+    "programs": {
+      "Chemical Engineering": {
+        "recommended_average": [
+          70
+        ],
+        "required_courses": [
+          "ENG4U/M",
+          "MHF4U",
+          "SPH4U",
+          "SCH4U",
+          "One additional U/M Math or Science",
+          "One other U/M course"
+        ]
+      },
+      "Mechanical Engineering": {
+        "recommended_average": [
+          75
+        ],
+        "required_courses": [
+          "ENG4U/M",
+          "MHF4U",
+          "SPH4U",
+          "SCH4U",
+          "One additional U/M Math or Science",
+          "One other U/M course"
+        ]
+      },
+      "Mining Engineering": {
+        "recommended_average": [
+          70
+        ],
+        "required_courses": [
+          "ENG4U/M",
+          "MHF4U",
+          "SPH4U",
+          "SCH4U",
+          "One additional U/M Math or Science",
+          "One other U/M course"
+        ]
+      }
+    }
+  },
+  "Trent University": {
+    "ec_quality": 1,
+    "application_deadline": "Not specified",
+    "co-op": [
+      "yes"
+    ],
+    "programs": {
+      "Chemical Engineering: Trent/Swansea Dual Degree": {
+        "recommended_average": [
+          80
+        ],
+        "required_courses": [
+          "ENG4U (min 60%)",
+          "SCH4U",
+          "SPH4U",
+          "MCV4U or MHF4U"
+        ],
+        "notes": "Minimum 70% overall final average on 6 courses"
+      },
+      "Software Engineering": {
+        "recommended_average": [
+          80
+        ],
+        "required_courses": [
+          "ENG4U (min 60%)",
+          "SCH4U",
+          "SPH4U",
+          "MCV4U or MHF4U"
+        ]
+      }
+    }
+  },
+  "Toronto Metropolitan University": {
+    "ec_quality": 2,
+    "application_deadline": "Not specified",
+    "co-op": [
+      "yes"
+    ],
+    "programs": {
+      "Aerospace Engineering": {
+        "recommended_average": [
+          80
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U"
+        ],
+        "notes": "Minimum 70-75% in each prerequisite [cite: 247, 256-261]"
+      },
+      "Biomedical Engineering": {
+        "recommended_average": [
+          80
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U"
+        ],
+        "notes": "Minimum 70-75% in each prerequisite [cite: 248, 256-261]"
+      },
+      "Chemical Engineering": {
+        "recommended_average": [
+          80
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U"
+        ],
+        "notes": "Minimum 70-75% in each prerequisite [cite: 249, 256-261]"
+      },
+      "Civil Engineering": {
+        "recommended_average": [
+          80
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U"
+        ],
+        "notes": "Minimum 70-75% in each prerequisite [cite: 250, 256-261]"
+      },
+      "Computer Engineering": {
+        "recommended_average": [
+          80
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U"
+        ],
+        "notes": "Minimum 70-75% in each prerequisite [cite: 251, 256-261]"
+      },
+      "Electrical Engineering": {
+        "recommended_average": [
+          80
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U"
+        ],
+        "notes": "Minimum 70-75% in each prerequisite [cite: 252, 256-261]"
+      },
+      "Industrial Engineering": {
+        "recommended_average": [
+          80
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U"
+        ],
+        "notes": "Minimum 70-75% in each prerequisite [cite: 253, 256-261]"
+      },
+      "Mechanical Engineering": {
+        "recommended_average": [
+          80
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U"
+        ],
+        "notes": "Minimum 70-75% in each prerequisite [cite: 254, 256-261]"
+      },
+      "Mechatronics Engineering": {
+        "recommended_average": [
+          80
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U"
+        ],
+        "notes": "Minimum 70-75% in each prerequisite [cite: 255-261]"
+      }
+    }
+  },
+  "York University": {
+    "ec_quality": 3,
+    "application_deadline": "Not specified",
+    "co-op": [
+      "yes"
+    ],
+    "programs": {
+      "Civil Engineering": {
+        "recommended_average": [
+          88
+        ],
+        "required_courses": [
+          "ENG4U",
+          "SCH4U",
+          "SPH4U",
+          "MHF4U",
+          "MCV4U",
+          "One additional 4U/M"
+        ],
+        "notes": "Minimum 70% in each prerequisite [cite: 264, 267-274]"
+      },
+      "Computer Engineering": {
+        "recommended_average": [
+          83
+        ],
+        "required_courses": [
+          "ENG4U",
+          "SCH4U",
+          "SPH4U",
+          "MHF4U",
+          "MCV4U",
+          "One additional 4U/M"
+        ],
+        "notes": "Minimum 70% in each prerequisite [cite: 264, 267-274]"
+      },
+      "Electrical Engineering": {
+        "recommended_average": [
+          83
+        ],
+        "required_courses": [
+          "ENG4U",
+          "SCH4U",
+          "SPH4U",
+          "MHF4U",
+          "MCV4U",
+          "One additional 4U/M"
+        ],
+        "notes": "Minimum 70% in each prerequisite [cite: 264, 267-274]"
+      },
+      "Mechanical Engineering": {
+        "recommended_average": [
+          83
+        ],
+        "required_courses": [
+          "ENG4U",
+          "SCH4U",
+          "SPH4U",
+          "MHF4U",
+          "MCV4U",
+          "One additional 4U/M"
+        ],
+        "notes": "Minimum 70% in each prerequisite [cite: 264, 267-274]"
+      },
+      "Mechatronics Engineering": {
+        "recommended_average": [
+          82
+        ],
+        "required_courses": [
+          "ENG4U",
+          "SCH4U",
+          "SPH4U",
+          "MHF4U",
+          "MCV4U",
+          "One additional 4U/M"
+        ],
+        "notes": "Minimum 70% in each prerequisite [cite: 264, 267-274]"
+      },
+      "Software Engineering": {
+        "recommended_average": [
+          82
+        ],
+        "required_courses": [
+          "ENG4U",
+          "SCH4U",
+          "SPH4U",
+          "MHF4U",
+          "MCV4U",
+          "One additional 4U/M"
+        ],
+        "notes": "Minimum 70% in each prerequisite [cite: 264, 267-274]"
+      },
+      "Space Engineering": {
+        "recommended_average": [
+          82
+        ],
+        "required_courses": [
+          "ENG4U",
+          "SCH4U",
+          "SPH4U",
+          "MHF4U",
+          "MCV4U",
+          "One additional 4U/M"
+        ],
+        "notes": "Minimum 70% in each prerequisite [cite: 264, 267-274]"
+      }
+    }
+  },
+  "University of Guelph": {
+    "ec_quality": 3,
+    "application_deadline": "Not specified",
+    "co-op": [
+      "yes",
+      "no"
+    ],
+    "programs": {
+      "Biological Engineering": {
+        "co-op": [
+          "yes"
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U",
+          "One additional 4U/M"
+        ],
+        "notes": "[cite: 275, 276, 285-291]",
+        "recommended_average": [
+          86
+        ]
+      },
+      "Biomedical Engineering": {
+        "co-op": [
+          "yes"
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U",
+          "One additional 4U/M"
+        ],
+        "notes": "[cite: 275, 277, 285-291]",
+        "recommended_average": [
+          82
+        ]
+      },
+      "Civil Engineering": {
+        "co-op": [
+          "no"
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U",
+          "One additional 4U/M"
+        ],
+        "notes": "[cite: 275, 278, 285-291]",
+        "recommended_average": [
+          85
+        ]
+      },
+      "Computer Engineering": {
+        "co-op": [
+          "yes"
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U",
+          "One additional 4U/M"
+        ],
+        "notes": "[cite: 275, 279, 285-291]",
+        "recommended_average": [
+          89
+        ]
+      },
+      "Engineering Systems and Computing": {
+        "co-op": [
+          "yes"
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U",
+          "One additional 4U/M"
+        ],
+        "notes": "[cite: 275, 280, 285-291]",
+        "recommended_average": [
+          83
+        ]
+      },
+      "Environmental Engineering": {
+        "co-op": [
+          "yes"
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U",
+          "One additional 4U/M"
+        ],
+        "notes": "[cite: 275, 281, 285-291]",
+        "recommended_average": [
+          84
+        ]
+      },
+      "Mechanical Engineering": {
+        "co-op": [
+          "yes"
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U",
+          "One additional 4U/M"
+        ],
+        "notes": "[cite: 275, 282, 285-291]",
+        "recommended_average": [
+          85
+        ]
+      },
+      "Mechatronics Engineering": {
+        "co-op": [
+          "yes"
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U",
+          "One additional 4U/M"
+        ],
+        "notes": "[cite: 275, 283, 285-291]",
+        "recommended_average": [
+          89
+        ]
+      },
+      "Water Resources Engineering": {
+        "co-op": [
+          "yes"
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U",
+          "One additional 4U/M"
+        ],
+        "notes": "[cite: 275, 284, 285-291]",
+        "recommended_average": [
+          86
+        ]
+      }
+    }
+  }
+}
