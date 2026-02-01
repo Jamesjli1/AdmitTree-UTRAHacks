@@ -1,5 +1,6 @@
 import { ReactNode } from 'react';
 import { Link } from 'react-router-dom';
+import { ChatbotButton } from '@/components/ChatbotButton';
 
 interface LayoutProps {
     children: ReactNode;
@@ -27,5 +28,6 @@ export const Layout = ({ children }: LayoutProps) => (
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
+        <ChatbotButton />
     </div>
 );

@@ -3,6 +3,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 from dotenv import load_dotenv
 from services.matcher import UniversityMatcher
+from services.chatbot import get_chat_response
 
 # Load environment variables from .env file
 load_dotenv()
@@ -16,7 +17,6 @@ CORS(app, origins=cors_origins)
 @app.route("/")
 def home():
     return "<p>Hello from Flask via uv!</p>"
-
 
 @app.route("/api/recommend", methods=["POST"])
 def recommend():
@@ -63,7 +63,26 @@ def recommend():
             "error": "Internal server error",
             "message": str(e)
         }), 500
+    
+@app.route("/api/chat", methods=["POST"])
+def chat():
+    try:
+        # 1. Get the message from the Frontend
+        data = request.get_json()
+        user_message = data.get("message", "")
 
+        if not user_message:
+            return jsonify({"reply": "I didn't hear anything!"}), 400
+
+        # 2. Get the answer from the 'Brain' (chatbot.py)
+        bot_reply = get_chat_response(user_message)
+
+        # 3. Send the answer back to the Frontend
+        return jsonify({"reply": bot_reply})
+
+    except Exception as e:
+        print(f"Chat Error: {e}")
+        return jsonify({"reply": "Server error."}), 500
 
 if __name__ == "__main__":
     port = int(os.getenv("FLASK_PORT", 5001))
