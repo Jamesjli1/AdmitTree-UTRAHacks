@@ -432,7 +432,7 @@ const Intake = () => {
         const selectedPrograms: UniversityProgram[] = selectedIndices.map((index) => {
             const ranking = programRankings[index];
             const programId = `program-${index + 1}`;
-            const deadline = "2025-01-15"; // Default deadline, can be enhanced later
+            const deadline = "2026-01-15"; // Default deadline, can be enhanced later
             
             return {
                 id: programId,
