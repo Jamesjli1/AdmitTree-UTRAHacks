@@ -3,3 +3,5 @@ flask-cors>=5.0.0
 python-dotenv>=1.0.0
 pymongo>=4.6.0
 reportlab
+requests
+certifi
