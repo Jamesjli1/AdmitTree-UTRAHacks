@@ -51,14 +51,15 @@ export function MultiSelect({
     }
   };
 
-  return (
+return (
     <Popover open={open} onOpenChange={setOpen}>
       <PopoverTrigger asChild>
-        <Button
-          variant="outline"
+        {/* CHANGED: Used a div instead of Button to avoid nesting error */}
+        <div
           role="combobox"
           aria-expanded={open}
-          className="w-full justify-between min-h-10 h-auto"
+          className="flex w-full min-h-10 h-auto cursor-pointer items-center justify-between rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
+          onClick={() => setOpen(!open)}
         >
           <div className="flex gap-1 flex-wrap">
             {selected.length === 0 ? (
@@ -103,7 +104,7 @@ export function MultiSelect({
             )}
           </div>
           <ChevronsUpDown className="h-4 w-4 shrink-0 opacity-50" />
-        </Button>
+        </div>
       </PopoverTrigger>
       <PopoverContent className="w-[300px] p-0" align="start">
         <Command>
