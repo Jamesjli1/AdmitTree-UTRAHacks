@@ -5,3 +5,4 @@ pymongo>=4.6.0
 reportlab
 requests
 certifi
+numpy>=1.24.3
