@@ -3,6 +3,7 @@ University Scoring Engine - Matches students to programs based on multiple crite
 """
 
 from services.database import fetch_university_data
+import numpy as np
 
 
 def get_university_db():
@@ -45,6 +46,48 @@ def get_university_db():
         uni_data["programs"] = programs
 
     return UNIVERSITY_DB
+
+def get_program_interests():
+    """
+    Get a dictionary mapping program names to their interests arrays.
+    Returns: dict of {program_name: [interests]}
+    """
+    from services.database import get_universities_collection
+    
+    collection = get_universities_collection()
+    
+    # Define the aggregation pipeline
+    pipeline = [
+        # Step 1: Convert the entire document into an array of key-value pairs
+        {"$project": {"data": {"$objectToArray": "$$ROOT"}}},
+        
+        # Step 2: Unwind to process each key (University names, _id, etc.)
+        {"$unwind": "$data"},
+        
+        # Step 3: Filter for keys that are universities (they contain a 'programs' field)
+        {"$match": {"data.v.programs": {"$exists": True}}},
+        
+        # Step 4: Convert the 'programs' object within each university to an array
+        {"$project": {
+            "program_entries": {"$objectToArray": "$data.v.programs"}
+        }},
+        
+        # Step 5: Unwind the programs to get individual program documents
+        {"$unwind": "$program_entries"},
+        
+        # Step 6: Project the final Program_name and interests array
+        {"$project": {
+            "_id": 0,
+            "program_name": "$program_entries.k",
+            "interests": "$program_entries.v.interests"
+        }}
+    ]
+    
+    # Execute query and format as a dictionary { Program_name: interests[] }
+    results = collection.aggregate(pipeline)
+    program_interests_map = {res['program_name']: res['interests'] for res in results}
+    
+    return program_interests_map
 
 
 class UniversityMatcher:
@@ -126,206 +169,76 @@ class UniversityMatcher:
     # -----------------------------
     # Scoring Components
     # -----------------------------
+    import numpy as np
+from services.database import fetch_university_data
+
+class UniversityMatcher:
+    def __init__(self, user_profile):
+        self.user = user_profile
+        self.user_avg = float(user_profile.get('average', 0))
+        self.grade = int(user_profile.get('grade_level', 12))
+
     def _calculate_academic_score(self, min_avg, max_avg, required_courses):
-        """
-        Checks if user meets grade cutoffs and has taken required courses.
-        Rewards competitive programs (higher averages) when requirements are met.
-        """
-        user_avg = self.user["average"]
+        """Uses sigmoid logic with competitive bias for the raw academic base."""
+        # Sigmoid midpoint centered at the min_avg
+        z = 0.8 * (self.user_avg - min_avg)
+        base_grade_score = 1 / (1 + np.exp(-z))
 
-        # A. Grade Range Interpolation
-        if user_avg >= max_avg:
-            grade_score = 1.0
-        elif user_avg < (min_avg - 5):
-            grade_score = 0.0
-        else:
-            grade_score = (user_avg - (min_avg - 5)) / (max_avg - (min_avg - 5))
+        # Competitive Bias
+        bias = 1.0 + ((max_avg - 85) / 100) if self.user_avg >= 92 and max_avg >= 90 else 1.0
+        
+        # Course Match
+        user_courses = [c[0].upper().strip() for c in self.user.get('courses_taken', [])]
+        req_courses = [str(c).split(' ')[0].upper().strip() for c in required_courses]
+        penalty = 1.0
+        if self.grade == 12 and req_courses:
+            missing = [r for r in req_courses if r not in user_courses]
+            penalty = max(0.1, 1.0 - (len(missing) * 0.15))
 
-        # B. Required Course Check (Grade 11/12 Only)
-        course_penalty = 1.0
-        if self.grade >= 11:
-            user_courses = [str(c[0]).strip().lower() for c in self.user["courses_taken"]]
-            missing = []
+        return (base_grade_score * penalty) * bias
 
-            for req in required_courses:
-                req_str = str(req).strip()
-                req_lower = req_str.lower()
-
-                # skip generic requirements
-                if any(phrase in req_lower for phrase in ["one more", "additional", "any u", "any m", "another"]):
-                    continue
-
-                # alternatives like "ENG4U / EAE4U"
-                alternatives = [alt.strip().lower() for alt in req_str.split("/")]
-                found_match = False
-                for alt in alternatives:
-                    for user_course in user_courses:
-                        if alt in user_course or user_course in alt:
-                            found_match = True
-                            break
-                    if found_match:
-                        break
-
-                if not found_match:
-                    missing.append(req_str)
-
-            if self.grade == 12 and missing:
-                course_penalty = max(0, 1.0 - (len(missing) * 0.15))
-            elif self.grade == 11 and missing:
-                course_penalty = 1.0  # keep as warning
-
-        # C. Competitiveness Bonus
-        competitiveness_bonus = 0.0
-        if user_avg >= max_avg:
-            if max_avg >= 95:
-                competitiveness_bonus = 0.20 + (0.10 * ((max_avg - 95) / 5))
-            elif max_avg >= 90:
-                competitiveness_bonus = 0.10 + (0.10 * ((max_avg - 90) / 5))
-            elif max_avg >= 85:
-                competitiveness_bonus = 0.05 + (0.05 * ((max_avg - 85) / 5))
-            elif max_avg >= 80:
-                competitiveness_bonus = 0.02 + (0.03 * ((max_avg - 80) / 5))
-        elif user_avg >= (max_avg - 2):
-            proximity = (user_avg - (max_avg - 2)) / 2
-            if max_avg >= 95:
-                competitiveness_bonus = (0.20 + (0.10 * ((max_avg - 95) / 5))) * proximity * 0.5
-            elif max_avg >= 90:
-                competitiveness_bonus = (0.10 + (0.10 * ((max_avg - 90) / 5))) * proximity * 0.5
-            elif max_avg >= 85:
-                competitiveness_bonus = (0.05 + (0.05 * ((max_avg - 85) / 5))) * proximity * 0.5
-            elif max_avg >= 80:
-                competitiveness_bonus = (0.02 + (0.03 * ((max_avg - 80) / 5))) * proximity * 0.5
-
-        final_score = min(1.30, (grade_score * course_penalty) + competitiveness_bonus)
-        return final_score
-
-    def _calculate_interest_score(self, program_interests):
-        """
-        Coverage score: matches / total program keywords (case-insensitive)
-        """
-        user_interests = set(self.user["major_interests"])
-        prog_interests = set(str(i).strip().lower() for i in program_interests)
-
-        if not prog_interests:
-            return 0.0
-
-        matches = user_interests.intersection(prog_interests)
-        return len(matches) / len(prog_interests)
-
-    def _calculate_ec_score(self, required_level):
-        """
-        Matches user's highest EC leadership level against program expectation.
-        """
-        if not self.user["extra_curriculars"]:
-            user_best = 0
-        else:
-            user_best = max([ec[1] for ec in self.user["extra_curriculars"]])
-
-        if user_best >= required_level:
-            return 1.0 + (0.05 * (user_best - required_level))
-        else:
-            return max(0, 1.0 - (0.2 * (required_level - user_best)))
-
-    def _calculate_coop_fit(self, program_coop_options):
-        """
-        program_coop_options example: ["yes", "no"] or ["yes"]
-        """
-        user_wants_coop = self.user["wants_coop"]
-
-        if isinstance(program_coop_options, str):
-            opts = [program_coop_options]
-        elif isinstance(program_coop_options, list):
-            opts = program_coop_options
-        else:
-            opts = [str(program_coop_options)]
-
-        opts = [str(x).strip().lower() for x in opts]
-
-        if user_wants_coop:
-            return 1.0 if "yes" in opts else 0.85
-        else:
-            return 1.0 if "no" in opts else 0.92
-
-    # -----------------------------
-    # Main Ranker
-    # -----------------------------
     def get_ranked_programs(self):
-        results = []
+        db = fetch_university_data()
+        raw_results = []
 
-        UNIVERSITY_DB = get_university_db()
-
-        for uni_name, uni_data in UNIVERSITY_DB.items():
-            if "ec_quality" not in uni_data:
-                raise ValueError(f"University '{uni_name}' missing 'ec_quality'. Keys: {list(uni_data.keys())}")
-
-            if "co-op" not in uni_data:
-                raise ValueError(f"University '{uni_name}' missing 'co-op'. Keys: {list(uni_data.keys())}")
-
-            if "programs" not in uni_data:
-                raise ValueError(f"University '{uni_name}' missing 'programs'. Keys: {list(uni_data.keys())}")
-
-            uni_ec_quality = uni_data["ec_quality"]
-            uni_coop_options = uni_data["co-op"]
-            programs = uni_data["programs"]
-
-            if not isinstance(programs, dict):
-                raise ValueError(f"University '{uni_name}': 'programs' must be dict, got {type(programs)}")
-
+        # Step 1: Calculate Raw Scores
+        for uni_name, uni_data in db.items():
+            if uni_name in ["_id", "apply_deadline"]: continue
+            programs = uni_data.get('programs', {})
             for prog_name, details in programs.items():
-                if not isinstance(details, dict):
-                    continue
-
-                if "recommended_average" not in details:
-                    continue  # skip broken entries instead of hard failing
-
-                recommended_avg = details["recommended_average"]
-                if not isinstance(recommended_avg, list):
-                    continue
-
-                if len(recommended_avg) == 1:
-                    recommended_avg = [recommended_avg[0] - 2, recommended_avg[0] + 2]
-                if len(recommended_avg) < 2:
-                    continue
-
-                required_courses = details.get("required_courses", [])
-                interests = details.get("interests", [])
-
-                # component scores
-                s_acad = self._calculate_academic_score(
-                    recommended_avg[0], recommended_avg[1], required_courses
-                )
-                s_int = self._calculate_interest_score(interests)
-                s_ec = self._calculate_ec_score(uni_ec_quality)
-
-                base_score = (
-                    (s_acad * self.weights["academic"]) +
-                    (s_int * self.weights["interest"]) +
-                    (s_ec * self.weights["ec"])
-                )
-
-                coop_mult = self._calculate_coop_fit(uni_coop_options)
-                final_score = base_score * coop_mult * 100
-
-                results.append({
+                # Interest Match
+                user_ints = set(i.lower() for i in self.user.get('major_interests', []))
+                prog_ints = set(i.lower() for i in details.get('interests', []))
+                s_int = len(user_ints.intersection(prog_ints)) / len(user_ints) if user_ints else 0
+                
+                # Academic Score
+                avg_range = details.get('recommended_average', [80, 85])
+                s_acad = self._calculate_academic_score(avg_range[0], avg_range[1], details.get('required_courses', []))
+                
+                # Raw weighted total
+                raw_score = (s_int * 0.5) + (s_acad * 0.5)
+                
+                raw_results.append({
                     "university": uni_name,
                     "program": prog_name,
-                    "score": round(final_score, 1),
-                    "breakdown": {
-                        "academic": round(s_acad, 2),
-                        "interest": round(s_int, 2),
-                        "ec": round(s_ec, 2),
-                        "coop_fit": round(coop_mult, 2)
-                    }
+                    "raw_score": raw_score
                 })
 
-        sorted_results = sorted(results, key=lambda x: x["score"], reverse=True)
+        # Step 2: Z-Score Standardization
+        scores = [r['raw_score'] for r in raw_results]
+        if len(scores) > 1:
+            mean_val = np.mean(scores)
+            std_dev = np.std(scores)
+            
+            for res in raw_results:
+                # Calculate Z = (x - mean) / std_dev
+                z_score = (res['raw_score'] - mean_val) / std_dev if std_dev > 0 else 0
+                
+                # Map Z-Score to 0-100 range. 
+                # A Z-score of 2 (2 standard deviations above mean) becomes ~98%
+                final_mapped_score = 1 / (1 + np.exp(-z_score)) * 100
+                res['score'] = round(final_mapped_score, 1)
+        else:
+            for res in raw_results: res['score'] = 100.0
 
-        # Normalize scores if top > 100
-        if sorted_results:
-            max_score = sorted_results[0]["score"]
-            if max_score > 100:
-                factor = 100 / max_score
-                for r in sorted_results:
-                    r["score"] = round(r["score"] * factor, 1)
-
-        return sorted_results
+        return sorted(raw_results, key=lambda x: x['score'], reverse=True)
