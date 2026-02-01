@@ -1,0 +1,2100 @@
+{
+  "_id": {
+    "$oid": "696c74fcee8b84055d38e650"
+  },
+  "apply_deadline": "January 15",
+  "University of Toronto": {
+    "ec_quality": 5,
+    "co-op": [
+      "yes"
+    ],
+    "programs": {
+      "Mechanical Engineering": {
+        "recommended_average": [
+          88,
+          93
+        ],
+        "required_courses": [
+          "ENG4U / EAE4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U",
+          "One more U or M course"
+        ],
+        "interests": [
+          "mechanics",
+          "thermodynamics",
+          "design",
+          "manufacturing",
+          "dynamics",
+          "robotics",
+          "aerodynamics",
+          "automotive design",
+          "fluid mechanics",
+          "CAD",
+          "heat transfer",
+          "vibrations",
+          "energy systems",
+          "solid mechanics",
+          "materials science",
+          "engines"
+        ]
+      },
+      "Computer Engineering": {
+        "recommended_average": [
+          90,
+          95
+        ],
+        "required_courses": [
+          "ENG4U / EAE4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U",
+          "One more U or M course"
+        ],
+        "interests": [
+          "programming",
+          "electronics",
+          "computer networking",
+          "software engineering",
+          "algorithms",
+          "data structures",
+          "cybersecurity",
+          "artificial intelligence",
+          "machine learning",
+          "cloud computing",
+          "mobile apps",
+          "web development",
+          "networking",
+          "databases",
+          "software architecture",
+          "operating systems",
+          "game design"
+        ]
+      },
+      "Electrical Engineering": {
+        "recommended_average": [
+          90,
+          95
+        ],
+        "required_courses": [
+          "ENG4U / EAE4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U",
+          "One more U or M course"
+        ],
+        "interests": [
+          "circuits",
+          "electronics",
+          "signal processing",
+          "power systems",
+          "telecommunications",
+          "microelectronics",
+          "electromagnetics",
+          "control systems",
+          "photonics",
+          "smart grids",
+          "renewable energy",
+          "semiconductors",
+          "wireless communications"
+        ]
+      },
+      "Civil Engineering": {
+        "recommended_average": [
+          88,
+          93
+        ],
+        "required_courses": [
+          "ENG4U / EAE4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U",
+          "One more U or M course"
+        ],
+        "interests": [
+          "infrastructure",
+          "structural design",
+          "transportation",
+          "smart cities",
+          "construction management",
+          "urban planning",
+          "geotechnical",
+          "hydraulics",
+          "bridges",
+          "highways",
+          "materials engineering",
+          "sustainability"
+        ]
+      },
+      "Chemical Engineering": {
+        "recommended_average": [
+          88,
+          93
+        ],
+        "required_courses": [
+          "ENG4U / EAE4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U",
+          "One more U or M course"
+        ],
+        "interests": [
+          "process engineering",
+          "reaction kinetics",
+          "polymers",
+          "green chemistry",
+          "biochemical processes",
+          "separation processes",
+          "fluids",
+          "catalysis",
+          "pharmaceuticals",
+          "energy production",
+          "process safety"
+        ]
+      },
+      "Engineering Science": {
+        "recommended_average": [
+          93,
+          98
+        ],
+        "required_courses": [
+          "ENG4U / EAE4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U",
+          "One more U or M course"
+        ],
+        "interests": [
+          "advanced mathematics",
+          "theoretical concepts",
+          "quantum computing",
+          "nanotechnology",
+          "aerospace",
+          "robotics",
+          "research",
+          "innovation"
+        ]
+      },
+      "Track One / Undeclared": {
+        "recommended_average": [
+          92,
+          97
+        ],
+        "required_courses": [
+          "ENG4U / EAE4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U",
+          "One more U or M course"
+        ],
+        "interests": [
+          "interdisciplinary studies",
+          "flexible curriculum",
+          "exploratory studies",
+          "project management",
+          "technical innovation"
+        ]
+      },
+      "Industrial Engineering": {
+        "recommended_average": [
+          88,
+          93
+        ],
+        "required_courses": [
+          "ENG4U / EAE4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U",
+          "One more U or M course"
+        ],
+        "interests": [
+          "optimization",
+          "operations research",
+          "supply chain",
+          "human factors",
+          "ergonomics",
+          "logistics",
+          "statistics",
+          "productivity",
+          "lean manufacturing",
+          "simulation"
+        ]
+      },
+      "Materials Engineering": {
+        "recommended_average": [
+          88,
+          93
+        ],
+        "required_courses": [
+          "ENG4U / EAE4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U",
+          "One more U or M course"
+        ],
+        "interests": [
+          "metallurgy",
+          "polymers",
+          "ceramics",
+          "composites",
+          "nanotechnology",
+          "material properties",
+          "failure analysis",
+          "crystallography",
+          "biomaterials"
+        ]
+      },
+      "Mineral Engineering": {
+        "recommended_average": [
+          88,
+          93
+        ],
+        "required_courses": [
+          "ENG4U / EAE4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U",
+          "One more U or M course"
+        ],
+        "interests": [
+          "mineral extraction",
+          "geology",
+          "sustainability",
+          "rock mechanics",
+          "processing",
+          "resource management",
+          "geophysics"
+        ]
+      }
+    }
+  },
+  "University of Waterloo": {
+    "ec_quality": 5,
+    "co-op": [
+      "yes"
+    ],
+    "programs": {
+      "Architectural Engineering": {
+        "recommended_average": [
+          85,
+          90
+        ],
+        "required_courses": [
+          "ENG4U / EAE4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U",
+          "One more U or M course"
+        ],
+        "interests": [
+          "building design",
+          "structural analysis",
+          "sustainability",
+          "green building",
+          "heritage conservation",
+          "infrastructure",
+          "urban design"
+        ]
+      },
+      "Biomedical Engineering": {
+        "recommended_average": [
+          88,
+          93
+        ],
+        "required_courses": [
+          "ENG4U / EAE4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U",
+          "One more U or M course"
+        ],
+        "interests": [
+          "medical devices",
+          "biomechanics",
+          "tissue engineering",
+          "medical imaging",
+          "prosthetics",
+          "biosensors",
+          "bioinformatics",
+          "neural engineering",
+          "biomaterials",
+          "rehabilitation engineering"
+        ]
+      },
+      "Chemical Engineering": {
+        "recommended_average": [
+          85,
+          90
+        ],
+        "required_courses": [
+          "ENG4U / EAE4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U",
+          "One more U or M course"
+        ],
+        "interests": [
+          "process engineering",
+          "reaction kinetics",
+          "polymers",
+          "green chemistry",
+          "biochemical processes",
+          "separation processes",
+          "fluids",
+          "catalysis",
+          "pharmaceuticals",
+          "energy production",
+          "process safety"
+        ]
+      },
+      "Civil Engineering": {
+        "recommended_average": [
+          84,
+          89
+        ],
+        "required_courses": [
+          "ENG4U / EAE4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U",
+          "One more U or M course"
+        ],
+        "interests": [
+          "infrastructure",
+          "structural design",
+          "transportation",
+          "smart cities",
+          "construction management",
+          "urban planning",
+          "geotechnical",
+          "hydraulics",
+          "bridges",
+          "highways",
+          "materials engineering",
+          "sustainability"
+        ]
+      },
+      "Computer Engineering": {
+        "recommended_average": [
+          90,
+          95
+        ],
+        "required_courses": [
+          "ENG4U / EAE4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U",
+          "One more U or M course"
+        ],
+        "interests": [
+          "programming",
+          "software engineering",
+          "algorithms",
+          "data structures",
+          "cybersecurity",
+          "artificial intelligence",
+          "machine learning",
+          "cloud computing",
+          "mobile apps",
+          "web development",
+          "networking",
+          "databases",
+          "software architecture",
+          "operating systems",
+          "game design"
+        ]
+      },
+      "Electrical Engineering": {
+        "recommended_average": [
+          89,
+          94
+        ],
+        "required_courses": [
+          "ENG4U / EAE4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U",
+          "One more U or M course"
+        ],
+        "interests": [
+          "circuits",
+          "electronics",
+          "signal processing",
+          "power systems",
+          "telecommunications",
+          "microelectronics",
+          "electromagnetics",
+          "control systems",
+          "photonics",
+          "smart grids",
+          "renewable energy",
+          "semiconductors",
+          "wireless communications"
+        ]
+      },
+      "Environmental Engineering": {
+        "recommended_average": [
+          85,
+          90
+        ],
+        "required_courses": [
+          "ENG4U / EAE4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U",
+          "One more U or M course"
+        ],
+        "interests": [
+          "water treatment",
+          "waste management",
+          "pollution control",
+          "sustainability",
+          "climate change mitigation",
+          "remediation",
+          "hydrology",
+          "air quality",
+          "environmental protection"
+        ]
+      },
+      "Geological Engineering": {
+        "recommended_average": [
+          84,
+          89
+        ],
+        "required_courses": [
+          "ENG4U / EAE4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U",
+          "One more U or M course"
+        ],
+        "interests": [
+          "earth sciences",
+          "mineral exploration",
+          "geohazards",
+          "groundwater",
+          "geophysics",
+          "rock mechanics",
+          "geotechnical engineering",
+          "environmental geology"
+        ]
+      },
+      "Mechanical Engineering": {
+        "recommended_average": [
+          88,
+          93
+        ],
+        "required_courses": [
+          "ENG4U / EAE4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U",
+          "One more U or M course"
+        ],
+        "interests": [
+          "mechanics",
+          "thermodynamics",
+          "design",
+          "manufacturing",
+          "dynamics",
+          "robotics",
+          "aerodynamics",
+          "automotive design",
+          "fluid mechanics",
+          "CAD",
+          "heat transfer",
+          "vibrations",
+          "energy systems",
+          "solid mechanics",
+          "materials science",
+          "engines"
+        ]
+      },
+      "Mechatronics Engineering": {
+        "recommended_average": [
+          90,
+          95
+        ],
+        "required_courses": [
+          "ENG4U / EAE4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U",
+          "One more U or M course"
+        ],
+        "interests": [
+          "automation",
+          "sensors",
+          "actuators",
+          "control systems",
+          "robotics",
+          "AI",
+          "computer vision",
+          "embedded systems",
+          "microcontrollers",
+          "kinematics",
+          "haptics",
+          "mechatronic systems"
+        ]
+      },
+      "Nanotechnology Engineering": {
+        "recommended_average": [
+          89,
+          94
+        ],
+        "required_courses": [
+          "ENG4U / EAE4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U",
+          "One more U or M course"
+        ],
+        "interests": [
+          "nanotechnology",
+          "nanomaterials",
+          "nanoelectronics",
+          "nanomedicine",
+          "quantum computing",
+          "photonics",
+          "semiconductors",
+          "micro-fabrication"
+        ]
+      },
+      "Software Engineering": {
+        "recommended_average": [
+          91,
+          96
+        ],
+        "required_courses": [
+          "ENG4U / EAE4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U",
+          "One more U or M course"
+        ],
+        "interests": [
+          "programming",
+          "software engineering",
+          "algorithms",
+          "data structures",
+          "cybersecurity",
+          "artificial intelligence",
+          "machine learning",
+          "cloud computing",
+          "mobile apps",
+          "web development",
+          "networking",
+          "databases",
+          "software architecture",
+          "operating systems",
+          "game design"
+        ]
+      },
+      "Systems Design Engineering": {
+        "recommended_average": [
+          90,
+          95
+        ],
+        "required_courses": [
+          "ENG4U / EAE4U",
+          "MHF4U",
+          "MCV4U",
+          "SPH4U",
+          "SCH4U",
+          "One more U or M course"
+        ],
+        "interests": [
+          "complex systems",
+          "interdisciplinary design",
+          "systems thinking",
+          "human factors",
+          "optimization",
+          "integration",
+          "modeling"
+        ]
+      }
+    }
+  },
+  "McMaster University": {
+    "ec_quality": 4,
+    "co-op": [
+      "yes",
+      "no"
+    ],
+    "programs": {
+      "Integrated Biomedical Engineering & Health Sciences (iBioMed)": {
+        "recommended_average": [
+          90,
+          95
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MCV4U",
+          "SBI4U",
+          "SCH4U",
+          "SPH4U",
+          "One additional 4U/M course"
+        ],
+        "interests": [
+          "medical devices",
+          "biomechanics",
+          "tissue engineering",
+          "medical imaging",
+          "prosthetics",
+          "biosensors",
+          "bioinformatics",
+          "neural engineering",
+          "biomaterials",
+          "rehabilitation engineering",
+          "interdisciplinary design",
+          "project management",
+          "entrepreneurship",
+          "business management",
+          "tech innovation",
+          "optimization",
+          "systems thinking"
+        ]
+      },
+      "Chemical Engineering": {
+        "recommended_average": [
+          87,
+          92
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U"
+        ],
+        "interests": [
+          "process engineering",
+          "reaction kinetics",
+          "polymers",
+          "green chemistry",
+          "biochemical processes",
+          "separation processes",
+          "fluids",
+          "catalysis",
+          "pharmaceuticals",
+          "energy production",
+          "process safety"
+        ]
+      },
+      "Civil Engineering": {
+        "recommended_average": [
+          87,
+          92
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U"
+        ],
+        "interests": [
+          "infrastructure",
+          "structural design",
+          "transportation",
+          "smart cities",
+          "construction management",
+          "urban planning",
+          "geotechnical",
+          "hydraulics",
+          "bridges",
+          "highways",
+          "materials engineering",
+          "sustainability"
+        ]
+      },
+      "Computer Engineering": {
+        "recommended_average": [
+          87,
+          92
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U"
+        ],
+        "interests": [
+          "programming",
+          "software engineering",
+          "algorithms",
+          "data structures",
+          "cybersecurity",
+          "artificial intelligence",
+          "machine learning",
+          "cloud computing",
+          "mobile apps",
+          "web development",
+          "networking",
+          "databases",
+          "software architecture",
+          "operating systems",
+          "game design"
+        ]
+      },
+      "Electrical Engineering": {
+        "recommended_average": [
+          87,
+          92
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U"
+        ],
+        "interests": [
+          "circuits",
+          "electronics",
+          "signal processing",
+          "power systems",
+          "telecommunications",
+          "microelectronics",
+          "electromagnetics",
+          "control systems",
+          "photonics",
+          "smart grids",
+          "renewable energy",
+          "semiconductors",
+          "wireless communications"
+        ]
+      },
+      "Engineering Physics": {
+        "recommended_average": [
+          87,
+          92
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U"
+        ],
+        "interests": [
+          "quantum mechanics",
+          "nanotechnology",
+          "laser physics",
+          "photonics",
+          "semiconductors",
+          "micro-fabrication",
+          "optics",
+          "advanced materials",
+          "theoretical physics"
+        ]
+      },
+      "Materials Engineering": {
+        "recommended_average": [
+          87,
+          92
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U"
+        ],
+        "interests": [
+          "metallurgy",
+          "polymers",
+          "ceramics",
+          "composites",
+          "nanotechnology",
+          "material properties",
+          "failure analysis",
+          "crystallography",
+          "biomaterials"
+        ]
+      },
+      "Mechanical Engineering": {
+        "recommended_average": [
+          87,
+          92
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U"
+        ],
+        "interests": [
+          "mechanics",
+          "thermodynamics",
+          "design",
+          "manufacturing",
+          "dynamics",
+          "robotics",
+          "aerodynamics",
+          "automotive design",
+          "fluid mechanics",
+          "CAD",
+          "heat transfer",
+          "vibrations",
+          "energy systems",
+          "solid mechanics",
+          "materials science",
+          "engines"
+        ]
+      },
+      "Mechatronics Engineering": {
+        "recommended_average": [
+          87,
+          92
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U"
+        ],
+        "interests": [
+          "automation",
+          "sensors",
+          "actuators",
+          "control systems",
+          "robotics",
+          "AI",
+          "computer vision",
+          "embedded systems",
+          "microcontrollers",
+          "kinematics",
+          "haptics",
+          "mechatronic systems"
+        ]
+      },
+      "Software Engineering": {
+        "recommended_average": [
+          87,
+          92
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U"
+        ],
+        "interests": [
+          "programming",
+          "software engineering",
+          "algorithms",
+          "data structures",
+          "cybersecurity",
+          "artificial intelligence",
+          "machine learning",
+          "cloud computing",
+          "mobile apps",
+          "web development",
+          "networking",
+          "databases",
+          "software architecture",
+          "operating systems",
+          "game design"
+        ]
+      },
+      "Computer Science (B.A.Sc.)": {
+        "recommended_average": [
+          92,
+          96
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MCV4U",
+          "Two of: SBI4U, SCH4U, SPH4U, SES4U, ICS4U or TEJ4M"
+        ],
+        "interests": [
+          "algorithms",
+          "artificial intelligence",
+          "database systems",
+          "software design",
+          "machine learning",
+          "cybersecurity",
+          "computational theory"
+        ]
+      }
+    }
+  },
+  "Western University": {
+    "ec_quality": 3,
+    "co-op": [
+      "yes"
+    ],
+    "programs": {
+      "Chemical Engineering": {
+        "recommended_average": [
+          88,
+          93
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MCV4U",
+          "MHF4U",
+          "SPH4U",
+          "SCH4U",
+          "One additional 4U/M course"
+        ],
+        "interests": [
+          "process engineering",
+          "reaction kinetics",
+          "polymers",
+          "green chemistry",
+          "biochemical processes",
+          "separation processes",
+          "fluids",
+          "catalysis",
+          "pharmaceuticals",
+          "energy production",
+          "process safety"
+        ]
+      },
+      "Civil Engineering": {
+        "recommended_average": [
+          88,
+          93
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MCV4U",
+          "MHF4U",
+          "SPH4U",
+          "SCH4U",
+          "One additional 4U/M course"
+        ],
+        "interests": [
+          "infrastructure",
+          "structural design",
+          "transportation",
+          "smart cities",
+          "construction management",
+          "urban planning",
+          "geotechnical",
+          "hydraulics",
+          "bridges",
+          "highways",
+          "materials engineering",
+          "sustainability"
+        ]
+      },
+      "Computer Engineering": {
+        "recommended_average": [
+          88,
+          93
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MCV4U",
+          "MHF4U",
+          "SPH4U",
+          "SCH4U",
+          "One additional 4U/M course"
+        ],
+        "interests": [
+          "programming",
+          "software engineering",
+          "algorithms",
+          "data structures",
+          "cybersecurity",
+          "artificial intelligence",
+          "machine learning",
+          "cloud computing",
+          "mobile apps",
+          "web development",
+          "networking",
+          "databases",
+          "software architecture",
+          "operating systems",
+          "game design"
+        ]
+      },
+      "Electrical Engineering": {
+        "recommended_average": [
+          88,
+          93
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MCV4U",
+          "MHF4U",
+          "SPH4U",
+          "SCH4U",
+          "One additional 4U/M course"
+        ],
+        "interests": [
+          "circuits",
+          "electronics",
+          "signal processing",
+          "power systems",
+          "telecommunications",
+          "microelectronics",
+          "electromagnetics",
+          "control systems",
+          "photonics",
+          "smart grids",
+          "renewable energy",
+          "semiconductors",
+          "wireless communications"
+        ]
+      },
+      "Integrated Engineering": {
+        "recommended_average": [
+          88,
+          93
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MCV4U",
+          "MHF4U",
+          "SPH4U",
+          "SCH4U",
+          "One additional 4U/M course"
+        ],
+        "interests": [
+          "interdisciplinary design",
+          "project management",
+          "entrepreneurship",
+          "business management",
+          "tech innovation",
+          "optimization",
+          "systems thinking"
+        ]
+      },
+      "Mechanical Engineering": {
+        "recommended_average": [
+          88,
+          93
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MCV4U",
+          "MHF4U",
+          "SPH4U",
+          "SCH4U",
+          "One additional 4U/M course"
+        ],
+        "interests": [
+          "mechanics",
+          "thermodynamics",
+          "design",
+          "manufacturing",
+          "dynamics",
+          "robotics",
+          "aerodynamics",
+          "automotive design",
+          "fluid mechanics",
+          "CAD",
+          "heat transfer",
+          "vibrations",
+          "energy systems",
+          "solid mechanics",
+          "materials science",
+          "engines"
+        ]
+      },
+      "Mechatronic Systems Engineering": {
+        "recommended_average": [
+          88,
+          93
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MCV4U",
+          "MHF4U",
+          "SPH4U",
+          "SCH4U",
+          "One additional 4U/M course"
+        ],
+        "interests": [
+          "automation",
+          "sensors",
+          "actuators",
+          "control systems",
+          "robotics",
+          "AI",
+          "computer vision",
+          "embedded systems",
+          "microcontrollers",
+          "kinematics",
+          "haptics",
+          "mechatronic systems"
+        ]
+      },
+      "Software Engineering": {
+        "recommended_average": [
+          88,
+          93
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MCV4U",
+          "MHF4U",
+          "SPH4U",
+          "SCH4U",
+          "One additional 4U/M course"
+        ],
+        "interests": [
+          "programming",
+          "software engineering",
+          "algorithms",
+          "data structures",
+          "cybersecurity",
+          "artificial intelligence",
+          "machine learning",
+          "cloud computing",
+          "mobile apps",
+          "web development",
+          "networking",
+          "databases",
+          "software architecture",
+          "operating systems",
+          "game design"
+        ]
+      }
+    }
+  },
+  "University of Ottawa": {
+    "ec_quality": 3,
+    "co-op": [
+      "yes"
+    ],
+    "programs": {
+      "Chemical Engineering": {
+        "recommended_average": [
+          84,
+          89
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U",
+          "One additional 4U/M"
+        ],
+        "interests": [
+          "process engineering",
+          "reaction kinetics",
+          "polymers",
+          "green chemistry",
+          "biochemical processes",
+          "separation processes",
+          "fluids",
+          "catalysis",
+          "pharmaceuticals",
+          "energy production",
+          "process safety"
+        ]
+      },
+      "Civil Engineering": {
+        "recommended_average": [
+          83,
+          88
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U",
+          "One additional 4U/M"
+        ],
+        "interests": [
+          "infrastructure",
+          "structural design",
+          "transportation",
+          "smart cities",
+          "construction management",
+          "urban planning",
+          "geotechnical",
+          "hydraulics",
+          "bridges",
+          "highways",
+          "materials engineering",
+          "sustainability"
+        ]
+      },
+      "Computer Engineering": {
+        "recommended_average": [
+          88,
+          93
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U",
+          "One additional 4U/M"
+        ],
+        "interests": [
+          "programming",
+          "software engineering",
+          "algorithms",
+          "data structures",
+          "cybersecurity",
+          "artificial intelligence",
+          "machine learning",
+          "cloud computing",
+          "mobile apps",
+          "web development",
+          "networking",
+          "databases",
+          "software architecture",
+          "operating systems",
+          "game design"
+        ]
+      },
+      "Electrical Engineering": {
+        "recommended_average": [
+          84,
+          89
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U",
+          "One additional 4U/M"
+        ],
+        "interests": [
+          "circuits",
+          "electronics",
+          "signal processing",
+          "power systems",
+          "telecommunications",
+          "microelectronics",
+          "electromagnetics",
+          "control systems",
+          "photonics",
+          "smart grids",
+          "renewable energy",
+          "semiconductors",
+          "wireless communications"
+        ]
+      },
+      "Mechanical Engineering": {
+        "recommended_average": [
+          85,
+          90
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U",
+          "One additional 4U/M"
+        ],
+        "interests": [
+          "mechanics",
+          "thermodynamics",
+          "design",
+          "manufacturing",
+          "dynamics",
+          "robotics",
+          "aerodynamics",
+          "automotive design",
+          "fluid mechanics",
+          "CAD",
+          "heat transfer",
+          "vibrations",
+          "energy systems",
+          "solid mechanics",
+          "materials science",
+          "engines"
+        ]
+      },
+      "Software Engineering": {
+        "recommended_average": [
+          92,
+          97
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U",
+          "One additional 4U/M"
+        ],
+        "interests": [
+          "programming",
+          "software engineering",
+          "algorithms",
+          "data structures",
+          "cybersecurity",
+          "artificial intelligence",
+          "machine learning",
+          "cloud computing",
+          "mobile apps",
+          "web development",
+          "networking",
+          "databases",
+          "software architecture",
+          "operating systems",
+          "game design"
+        ]
+      }
+    }
+  },
+  "Queen's University": {
+    "ec_quality": 4,
+    "co-op": [
+      "yes"
+    ],
+    "programs": {
+      "Engineering and Applied Science": {
+        "recommended_average": [
+          90,
+          95
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U",
+          "One of: MHF4U, SBI4U, SES4U, ICS4U"
+        ],
+        "interests": [
+          "engineering",
+          "technical innovation",
+          "problem solving",
+          "analytical thinking",
+          "STEM"
+        ]
+      }
+    }
+  },
+  "Carleton University": {
+    "ec_quality": 3,
+    "co-op": [
+      "yes"
+    ],
+    "programs": {
+      "Aerospace Engineering": {
+        "recommended_average": [
+          88,
+          93
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U"
+        ],
+        "interests": [
+          "aerodynamics",
+          "propulsion",
+          "space systems",
+          "orbital mechanics",
+          "satellite technology",
+          "flight dynamics",
+          "aircraft structures",
+          "avionics",
+          "aerospace materials"
+        ]
+      },
+      "Biomedical and Electrical Engineering": {
+        "recommended_average": [
+          83,
+          88
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U"
+        ],
+        "interests": [
+          "medical devices",
+          "biomechanics",
+          "tissue engineering",
+          "medical imaging",
+          "prosthetics",
+          "biosensors",
+          "bioinformatics",
+          "neural engineering",
+          "biomaterials",
+          "rehabilitation engineering",
+          "circuits",
+          "electronics",
+          "signal processing",
+          "power systems",
+          "telecommunications",
+          "microelectronics",
+          "electromagnetics",
+          "control systems",
+          "photonics",
+          "smart grids",
+          "renewable energy",
+          "semiconductors",
+          "wireless communications"
+        ]
+      },
+      "Civil Engineering": {
+        "recommended_average": [
+          81,
+          86
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U"
+        ],
+        "interests": [
+          "infrastructure",
+          "structural design",
+          "transportation",
+          "smart cities",
+          "construction management",
+          "urban planning",
+          "geotechnical",
+          "hydraulics",
+          "bridges",
+          "highways",
+          "materials engineering",
+          "sustainability"
+        ]
+      },
+      "Computer Systems Engineering": {
+        "recommended_average": [
+          85,
+          90
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U"
+        ],
+        "interests": [
+          "complex systems",
+          "interdisciplinary design",
+          "systems thinking",
+          "human factors",
+          "optimization",
+          "integration",
+          "modeling",
+          "programming",
+          "software engineering",
+          "algorithms",
+          "data structures",
+          "cybersecurity",
+          "artificial intelligence",
+          "machine learning",
+          "cloud computing",
+          "mobile apps",
+          "web development",
+          "networking",
+          "databases",
+          "software architecture",
+          "operating systems",
+          "game design"
+        ]
+      },
+      "Mechanical Engineering": {
+        "recommended_average": [
+          85,
+          90
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U"
+        ],
+        "interests": [
+          "mechanics",
+          "thermodynamics",
+          "design",
+          "manufacturing",
+          "dynamics",
+          "robotics",
+          "aerodynamics",
+          "automotive design",
+          "fluid mechanics",
+          "CAD",
+          "heat transfer",
+          "vibrations",
+          "energy systems",
+          "solid mechanics",
+          "materials science",
+          "engines"
+        ]
+      },
+      "Software Engineering": {
+        "recommended_average": [
+          88,
+          93
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U"
+        ],
+        "interests": [
+          "programming",
+          "software engineering",
+          "algorithms",
+          "data structures",
+          "cybersecurity",
+          "artificial intelligence",
+          "machine learning",
+          "cloud computing",
+          "mobile apps",
+          "web development",
+          "networking",
+          "databases",
+          "software architecture",
+          "operating systems",
+          "game design"
+        ]
+      }
+    }
+  },
+  "York University": {
+    "ec_quality": 2,
+    "co-op": [
+      "yes"
+    ],
+    "programs": {
+      "Civil Engineering": {
+        "recommended_average": [
+          82,
+          87
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U"
+        ],
+        "interests": [
+          "infrastructure",
+          "structural design",
+          "transportation",
+          "smart cities",
+          "construction management",
+          "urban planning",
+          "geotechnical",
+          "hydraulics",
+          "bridges",
+          "highways",
+          "materials engineering",
+          "sustainability"
+        ]
+      },
+      "Computer Engineering": {
+        "recommended_average": [
+          85,
+          90
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U"
+        ],
+        "interests": [
+          "programming",
+          "software engineering",
+          "algorithms",
+          "data structures",
+          "cybersecurity",
+          "artificial intelligence",
+          "machine learning",
+          "cloud computing",
+          "mobile apps",
+          "web development",
+          "networking",
+          "databases",
+          "software architecture",
+          "operating systems",
+          "game design"
+        ]
+      },
+      "Mechanical Engineering": {
+        "recommended_average": [
+          85,
+          90
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U"
+        ],
+        "interests": [
+          "mechanics",
+          "thermodynamics",
+          "design",
+          "manufacturing",
+          "dynamics",
+          "robotics",
+          "aerodynamics",
+          "automotive design",
+          "fluid mechanics",
+          "CAD",
+          "heat transfer",
+          "vibrations",
+          "energy systems",
+          "solid mechanics",
+          "materials science",
+          "engines"
+        ]
+      },
+      "Software Engineering": {
+        "recommended_average": [
+          85,
+          90
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U"
+        ],
+        "interests": [
+          "programming",
+          "software engineering",
+          "algorithms",
+          "data structures",
+          "cybersecurity",
+          "artificial intelligence",
+          "machine learning",
+          "cloud computing",
+          "mobile apps",
+          "web development",
+          "networking",
+          "databases",
+          "software architecture",
+          "operating systems",
+          "game design"
+        ]
+      }
+    }
+  },
+  "Ontario Tech University": {
+    "ec_quality": 2,
+    "co-op": [
+      "yes"
+    ],
+    "programs": {
+      "Automotive Engineering": {
+        "recommended_average": [
+          78,
+          83
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U"
+        ],
+        "interests": [
+          "automotive design",
+          "vehicle dynamics",
+          "electric vehicles",
+          "internal combustion engines",
+          "hybrid systems",
+          "manufacturing",
+          "thermodynamics"
+        ]
+      },
+      "Mechanical Engineering": {
+        "recommended_average": [
+          78,
+          83
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U"
+        ],
+        "interests": [
+          "mechanics",
+          "thermodynamics",
+          "design",
+          "manufacturing",
+          "dynamics",
+          "robotics",
+          "aerodynamics",
+          "automotive design",
+          "fluid mechanics",
+          "CAD",
+          "heat transfer",
+          "vibrations",
+          "energy systems",
+          "solid mechanics",
+          "materials science",
+          "engines"
+        ]
+      },
+      "Mechatronics Engineering": {
+        "recommended_average": [
+          78,
+          83
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U"
+        ],
+        "interests": [
+          "automation",
+          "sensors",
+          "actuators",
+          "control systems",
+          "robotics",
+          "AI",
+          "computer vision",
+          "embedded systems",
+          "microcontrollers",
+          "kinematics",
+          "haptics",
+          "mechatronic systems"
+        ]
+      },
+      "Nuclear Engineering": {
+        "recommended_average": [
+          78,
+          83
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U"
+        ],
+        "interests": [
+          "nuclear energy",
+          "radiation protection",
+          "power generation",
+          "nuclear physics",
+          "thermodynamics",
+          "reactor safety",
+          "sustainable energy"
+        ]
+      },
+      "Software Engineering": {
+        "recommended_average": [
+          78,
+          83
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U"
+        ],
+        "interests": [
+          "programming",
+          "software engineering",
+          "algorithms",
+          "data structures",
+          "cybersecurity",
+          "artificial intelligence",
+          "machine learning",
+          "cloud computing",
+          "mobile apps",
+          "web development",
+          "networking",
+          "databases",
+          "software architecture",
+          "operating systems",
+          "game design"
+        ]
+      }
+    }
+  },
+  "Guelph University": {
+    "ec_quality": 3,
+    "co-op": [
+      "yes"
+    ],
+    "programs": {
+      "Biomedical Engineering": {
+        "recommended_average": [
+          86,
+          91
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U",
+          "One additional 4U/M"
+        ],
+        "interests": [
+          "medical devices",
+          "biomechanics",
+          "tissue engineering",
+          "medical imaging",
+          "prosthetics",
+          "biosensors",
+          "bioinformatics",
+          "neural engineering",
+          "biomaterials",
+          "rehabilitation engineering"
+        ]
+      },
+      "Computer Engineering": {
+        "recommended_average": [
+          86,
+          91
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U",
+          "One additional 4U/M"
+        ],
+        "interests": [
+          "programming",
+          "software engineering",
+          "algorithms",
+          "data structures",
+          "cybersecurity",
+          "artificial intelligence",
+          "machine learning",
+          "cloud computing",
+          "mobile apps",
+          "web development",
+          "networking",
+          "databases",
+          "software architecture",
+          "operating systems",
+          "game design"
+        ]
+      },
+      "Mechanical Engineering": {
+        "recommended_average": [
+          87,
+          92
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U",
+          "One additional 4U/M"
+        ],
+        "interests": [
+          "mechanics",
+          "thermodynamics",
+          "design",
+          "manufacturing",
+          "dynamics",
+          "robotics",
+          "aerodynamics",
+          "automotive design",
+          "fluid mechanics",
+          "CAD",
+          "heat transfer",
+          "vibrations",
+          "energy systems",
+          "solid mechanics",
+          "materials science",
+          "engines"
+        ]
+      }
+    }
+  },
+  "Toronto Metropolitan University": {
+    "ec_quality": 3,
+    "co-op": [
+      "yes"
+    ],
+    "programs": {
+      "Aerospace Engineering": {
+        "recommended_average": [
+          87,
+          92
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U",
+          "One additional 4U/M"
+        ],
+        "interests": [
+          "aerodynamics",
+          "propulsion",
+          "space systems",
+          "orbital mechanics",
+          "satellite technology",
+          "flight dynamics",
+          "aircraft structures",
+          "avionics",
+          "aerospace materials"
+        ]
+      },
+      "Biomedical Engineering": {
+        "recommended_average": [
+          84,
+          89
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U",
+          "One additional 4U/M"
+        ],
+        "interests": [
+          "medical devices",
+          "biomechanics",
+          "tissue engineering",
+          "medical imaging",
+          "prosthetics",
+          "biosensors",
+          "bioinformatics",
+          "neural engineering",
+          "biomaterials",
+          "rehabilitation engineering"
+        ]
+      },
+      "Computer Engineering": {
+        "recommended_average": [
+          86,
+          91
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U",
+          "One additional 4U/M"
+        ],
+        "interests": [
+          "programming",
+          "software engineering",
+          "algorithms",
+          "data structures",
+          "cybersecurity",
+          "artificial intelligence",
+          "machine learning",
+          "cloud computing",
+          "mobile apps",
+          "web development",
+          "networking",
+          "databases",
+          "software architecture",
+          "operating systems",
+          "game design"
+        ]
+      },
+      "Mechanical Engineering": {
+        "recommended_average": [
+          85,
+          90
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U",
+          "One additional 4U/M"
+        ],
+        "interests": [
+          "mechanics",
+          "thermodynamics",
+          "design",
+          "manufacturing",
+          "dynamics",
+          "robotics",
+          "aerodynamics",
+          "automotive design",
+          "fluid mechanics",
+          "CAD",
+          "heat transfer",
+          "vibrations",
+          "energy systems",
+          "solid mechanics",
+          "materials science",
+          "engines"
+        ]
+      },
+      "Mechatronics Engineering": {
+        "recommended_average": [
+          86,
+          91
+        ],
+        "required_courses": [
+          "ENG4U",
+          "MHF4U",
+          "MCV4U",
+          "SCH4U",
+          "SPH4U",
+          "One additional 4U/M"
+        ],
+        "interests": [
+          "automation",
+          "sensors",
+          "actuators",
+          "control systems",
+          "robotics",
+          "AI",
+          "computer vision",
+          "embedded systems",
+          "microcontrollers",
+          "kinematics",
+          "haptics",
+          "mechatronic systems"
+        ]
+      }
+    }
+  }
+}
