@@ -7,12 +7,18 @@ interface LayoutProps {
 }
 
 const Header = () => (
-    <header className="bg-white shadow-sm border-b">
-        <div className="container mx-auto px-4 py-4">
-            <Link to="/" className="text-xl font-bold">AdmitTree</Link>
-            {/* Add navigation, logo, etc. */}
-        </div>
-    </header>
+  <header className="bg-white shadow-sm border-b">
+    <div className="container mx-auto px-4 py-4">
+      <Link to="/" className="flex items-center gap-2 text-xl font-bold">
+        <img
+          src="/favicon.ico"
+          alt="AdmitTree logo"
+          className="h-10 w-auto"
+        />
+        AdmitTree
+      </Link>
+    </div>
+  </header>
 );
 
 const Footer = () => (
